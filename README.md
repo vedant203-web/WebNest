@@ -21,14 +21,14 @@ Compatible with **Jupyter Notebook**, **JupyterLab**, and **Google Colab**.
 Install WebNest directly from PyPI using `pip`:
 
 ```bash
-pip install webnest
+pip install WebNest
 ```
 
 ---
 
 ## 🚀 Quick Start
 
-Import `webnest` into your notebook and start embedding web pages or videos with a single line of code.
+Import `WebNest` into your notebook and start embedding web pages or videos with a single line of code.
 
 ### 1. Embed a Website or Documentation
 
@@ -112,3 +112,17 @@ Contributions, issues, and feature requests are welcome!
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+# How to Install this package in Your System
+
+```bash
+conda create -n WebNest_env python=3.8 -y
+```
+
+```bash
+conda activate WebNest_env
+```
+
+```bash
+pip install -r requirements_dev.txt
+```
